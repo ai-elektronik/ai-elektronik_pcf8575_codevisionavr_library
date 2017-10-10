@@ -18,7 +18,7 @@ twistop();
 }
 
 //data pada semua pin langsung dibaca semua
-hasilnya langsung 16 bit
+//hasilnya langsung 16 bit
 unsigned int baca_pcf8575(){
 unsigned char datap0,datap1;
 twistart();
